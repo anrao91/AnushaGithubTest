@@ -3,7 +3,7 @@
 #include"player.c"
 int main()
 {
-	int size;
+	int size;//this indicates size of the player
 	printf("enter the no of players\n ");
 	scanf("%d",&size);
 	struct cricket data[size];
